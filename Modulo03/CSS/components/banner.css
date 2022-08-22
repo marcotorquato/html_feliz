@@ -1,0 +1,10 @@
+.banner {
+   
+    background-position: center;
+    background-size: cover;
+    background-image: url('/Modulo03/assets/img/bg_home.jpg');
+    height: 800px;
+    border-bottom: 10px solid var(--color-black-first);
+    
+}
+ 

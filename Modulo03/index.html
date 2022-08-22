@@ -4,34 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--Font-->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Press+Start+2P&display=swap" rel="stylesheet">
     
 
-    <link rel="stylesheet" href="/MarcoBrunoDev/Modulo01/CSS/style.css">
-    <link rel="stylesheet" href="/MarcoBrunoDev/Modulo01/CSS/reset.css">
-    <title>Marco Torquato Portifolio</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/testestyle.css">
+    <link rel="stylesheet" href="CSS/components/title.css">
+    <link rel="stylesheet" href="CSS/components/subtitle.css">
+    <link rel="stylesheet" href="CSS/components/box.css">
+    <link rel="stylesheet" href="CSS/components/button.css">
+    <link rel="stylesheet" href="CSS/components/action.css">
+    <link rel="stylesheet" href="CSS/components/header.css">
+    <link rel="stylesheet" href="CSS/components/banner.css">
+
+    <title>Teste Portifolio</title>
 </head>
-
 <body>
-    <header>
-        
-             
-        <img src="/MarcoBrunoDev/Modulo01/assets/img/logo1.png" alt="logo_code">
-        <nav>
-            <ul>
-                <li><a class="list" href="index.html">Skills</a></li>
-                <li><a class="list" href="index.html">Project</a></li>
-                <li><a class="list" href="about.html">About</a></li>
-                <li><a class="list" href="contact.html">Contact</a></li>
-                <li><button><a href="contact.html">Download CV</a></button></li>
+    <header class="header">
+        <img src="assets/img/logo1.png" alt="">
 
-               
+        <nav class="navigation">
+            <ul>
+                <li><a class="action" href="index.html">Skills</a></li>
+                <li><a class="action" href="index.html">Project</a></li>
+                <li><a class="action" href="about.html">About</a></li>
+                <li><a class="action" href="contact.html">Contact</a></li>
+                <li><button class="button"><a href="contact.html">Download CV</a></button></li>
             </ul>
         </nav>
     </header>
     
+    
+        
+    
+    
+    <section class="banner">
+        <div class="box">
+            <h1 class="title">Marco Torquato</h1>
+            <h2 class="subtitle">Front-End Developer</h2>
+        </div>
+        <button class="button"><a href="contact.html">Download CV</a></button>
+        <button class="button"><a href="contact.html">Contact</a></button>
+    </section>
 </body>
 </html>

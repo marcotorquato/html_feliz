@@ -14,18 +14,3 @@
     --font2: 'Press Start 2P', sans-serif;
     
 }
-
-
-
-
-
-
-
-#bg_home {
-   
-    background-position: center;
-    background-size: cover;
-    background-image: url('assets/img/bg_home.jpg');
-    height: 700px;
-}
- 
