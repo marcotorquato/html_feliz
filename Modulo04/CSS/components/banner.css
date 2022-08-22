@@ -1,0 +1,23 @@
+.banner {
+    background-position: center;
+    background-size: cover;
+    background-image: url('/Modulo03/assets/img/bg_home.jpg');
+    height: 700px;
+    border-bottom: 10px solid var(--color-black-first);
+    padding: 115px 0 0 90px;
+    
+}
+
+.banner .wrapper {
+    width: 640px;    
+}
+
+.banner .navigation{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+
+
+ 

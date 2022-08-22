@@ -1,0 +1,10 @@
+.title {
+    
+    color: var(--color2);
+    font-family: var(--font2);
+    font-size: 30px;;
+    
+    text-shadow:  4px 4px 5px var(--color-black-first);
+    
+    
+}
