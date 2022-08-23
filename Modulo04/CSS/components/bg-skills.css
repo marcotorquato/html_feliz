@@ -7,7 +7,6 @@
     font-size: 30px;
     font-family: var(--font2);
     text-align: center;
-    padding: 100px;
 }
 .bg-skills h2 {
     font-size: 20px;
@@ -16,67 +15,6 @@
     
 }
 
-.skills {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 900px;
-    height: 400px;
-    margin: auto ;
-}
-.bg-skills img {
-    height: 80px;
-    width: 70px;
-}
-
-.html{
-    display: flex;
-    align-content: flex-end;  
-    width: 430px;
-    height: 70px;
-    padding: 15px;
-}
-
-.css{
-    display: flex;
-    width: 430px;
-    height: 90px;
-}
-.jscript {
-    display: flex;
-    width: 430px;
-    height: 90px;
-}
-
-.react {
-    display: flex;
-    width: 430px;
-    height: 90px;
-}
-
-.nodejs{
-    display: flex;
-    width: 430px;
-    height: 90px;
-}
-
-.tdd {
-    display: flex;
-    width: 430px;
-    height: 90px;
-}
-
-.restapi{
-    display: flex;
-    width: 430px;
-    height: 90px;
-}
-.ux{
-    display: flex;
-    width: 430px;
-    height: 90px;
-}
 
 .progress-bar {
     height: 10px;
@@ -88,9 +26,6 @@
 
 .progress-bar::before {
     content: "";
-    width: 50%;
+    width: 70%;
     background-color: var(--color2);
-}
-.border-bar {
-    align-content: flex-start;
 }
