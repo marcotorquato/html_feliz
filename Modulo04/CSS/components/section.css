@@ -9,3 +9,9 @@
 .section .main-title {
     margin-bottom: 60px;
 }
+
+.section.-project{
+    height: 520px;
+    width: 1440px;
+    border-bottom: 10px solid var(--color2);
+}
