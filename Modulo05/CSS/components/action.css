@@ -1,0 +1,22 @@
+.action {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color3);
+    font-family: 'Fira Code', monospace;
+    font-size: 18px;
+    
+}
+
+.action::before {
+    content: '';
+    padding: 5px;
+    background-color: var(--color2);
+    margin-right: 10px;
+
+}
+
+.action:hover {
+    color: var(--color-black-third);
+    transform: scale(1.1);
+}

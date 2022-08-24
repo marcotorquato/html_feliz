@@ -1,0 +1,61 @@
+:root {
+    --color1: #321251;
+    --color2: #1B7698;
+    --color3: #F2F2F2;
+    --color-black-first: #131212;
+    --color-black-second: #212425;
+    --color-black-third: #828282;
+
+    --fontfire: 'Fira Code', monospace;
+
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color1);
+    border-bottom: 10px solid var(--color-black-first);
+    padding: 10px 20px;
+}
+
+header img {
+    height: 80px;
+
+}
+
+header li{
+    display: inline-flex;
+    margin: 0 0 0 30px;
+    
+}
+
+
+header a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color3);
+    font-size: 20px;
+    
+}
+
+header a.list::before {
+    display: inline-block;
+    content: '';
+    padding: 5px;
+    background-color: var(--color2);
+    margin-right: 10px;
+
+}
+
+header a:hover {
+    color: var(--color-black-third);
+}
+
+nav {
+    text-align: right;
+}
+
+
+

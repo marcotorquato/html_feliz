@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&display=swap');
+
+
+:root {
+    --color1: #321251;
+    --color2: #1B7698;
+    --color3: #F2F2F2;
+    --color-black-first: #131212;
+    --color-black-second: #212425;
+    --color-black-third: #828282;
+
+
+    --font1: 'Fira Code', monospace;
+    --font2: 'Press Start 2P', sans-serif;
+    
+}
