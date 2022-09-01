@@ -17,5 +17,8 @@
     color: var(--color3);
     font-family: var(--font1);
     font-size: 50px;
+}
 
+.main-title.-first {
+    margin-bottom: 40px;
 }
