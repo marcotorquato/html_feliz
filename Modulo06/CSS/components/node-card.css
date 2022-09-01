@@ -1,0 +1,36 @@
+.node-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.node-card::before{
+    content: '';
+    height: 0px;
+    width: 40px;
+    border: 2.5px dashed black;
+    transform: rotate(90deg) translateX(125%);
+    bottom: 140px;
+}
+
+.node-card .title{
+    font-family: var(--font2);
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--color3);
+    margin-bottom: 50px;
+
+}
+
+.node-card .logo{
+    display: flex;
+    align-items: center;
+    height: 140px;
+    padding-left: 20px ;
+    padding-right: 20px;
+    border: 5px solid black;
+    background-color: var(--color2);
+}
+
+
