@@ -1,0 +1,29 @@
+.wrapper-projects{
+    display: flex;
+    justify-content: space-between;
+    width: 1158px;
+    margin: 100px auto auto auto;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px ;
+    box-shadow: 5px 5px 4px rgb(255, 255, 255);
+
+}
+
+.project.-firelab{
+    background-color: var(--color1);
+}
+
+.project.-colabcode{
+    background-color: var(--color2);
+}
+
+.project.-code{
+    background-color: rgba(255, 255, 255, 0.807);
+}

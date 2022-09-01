@@ -1,0 +1,19 @@
+.main-section {
+    background-color: var(--color-black-first);
+    height: 730px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid var(--color1);
+}
+
+.main-section.-project{
+    height: 520px;
+    width: 1440px;
+    border-bottom: 10px solid var(--color2);
+}
+
+.main-section.-about {
+    background-color: var(--color1);
+    border-bottom: 10px solid var(--color-black-first);
+
+}

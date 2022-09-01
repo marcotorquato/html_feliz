@@ -1,0 +1,23 @@
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color1);
+    border-bottom: 10px solid var(--color-black-first);
+    padding: 10px 20px;
+}
+
+.main-header img {
+    height: 95px;
+
+}
+
+.main-header li{
+    display: inline-flex;
+    margin: 20px 0 0 30px;
+    
+}
+
+
+.navigation {
+    text-align: right;
+}
