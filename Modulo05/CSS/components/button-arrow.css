@@ -10,14 +10,19 @@
     content: '';
     display: block;
     box-sizing: border-box;
-    width: 20px;
-    height: 10px;
-    border: 10px solid ;
-    border-left-color: #fff ;
+    width: 15px;
+    height: 15px;
+    border: 15px solid transparent ;
+    border-left:28px solid #fff;
+    transform: translateX(4px);
+    
 
 }
 
-.button-arrow.-right::after:{
-    content: '>';
+.button-arrow.-left::before{
+    transform: rotate(180deg) translateX(14px);
+}
 
+.button-arrow .content {
+    display: none;
 }
