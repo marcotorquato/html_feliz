@@ -11,5 +11,6 @@ let  pixels = 0
 
     const btnLeft = document.querySelector('.button-arrow.-left')
     btnLeft.addEventListener('click', function() {
-        console.log('Deu bom tambem')
+        pixels = pixels - 50
+        elements.style = `transform: translateX(${pixels}px)`
     });
