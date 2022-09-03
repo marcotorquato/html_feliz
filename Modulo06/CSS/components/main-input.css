@@ -1,10 +1,27 @@
 .main-input {
     box-sizing: border-box;
-    border: 5px solid;
-    font-size: 30px;
+    border: 3px solid;
+    font-size: 20px;
     height: 50px;
-    width: 100%;
+    width: 90%;
     padding-left: 5px;
     padding-right: 5px;
-    
+    margin-top: 60px;
 }
+
+.main-input, .main-input.-textarea::-webkit-input-placeholder{
+    font-family: var(--font1);
+}
+
+.main-input, .main-input.-textarea::-moz-placeholder    {
+    font-family: var(--font1);
+}
+
+.main-input.-textarea {
+    height: 320px;
+    width: 90%;
+}
+.forms{
+    text-align: center;
+}
+

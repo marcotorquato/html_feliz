@@ -16,3 +16,11 @@
     color: var(--color3);
     font-family: var(--font1);
 }
+
+.main-button.-send-message{
+    width: 90%;
+    font-size: 20px;
+    font-family: var(--font1);
+    margin-top: 20px;
+    transition: transform 400ms cubic-bezier(0, -0.1, 0, 1.2);
+}

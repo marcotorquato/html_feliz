@@ -4,16 +4,15 @@
 }
 
 .social {
-    padding: 25px;
+    padding-top: 25px;
     display: flex;
     justify-content: center;
-    margin: 50px;
     text-align: center;
   }
   
 .social a {
     font-size: 44px;
-    
+
     color: #fff;
     
     margin-right: 30px;
