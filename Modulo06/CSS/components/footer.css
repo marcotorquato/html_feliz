@@ -4,15 +4,18 @@
 }
 
 .social {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
     margin: 50px;
     text-align: center;
   }
   
 .social a {
     font-size: 44px;
-    display: inline-block;
+    
     color: #fff;
-    line-height: 3;
+    
     margin-right: 30px;
     transition: 0.3s;
   }
